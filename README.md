@@ -1,16 +1,17 @@
-# Docker Compose with Spring Boot, MongoDB, NGINX
-
-## What you'll build
-- A simple Spring Boot application  with MongoDB and NGINX running inside Docker containers 
+# [Email Verification Example with Spring Boot, MySQL, Docker Compose, Amazon SES](https://hellokoding.com/email-verification-example-with-spring-boot-mysql-docker-compose/)
 
 ## What you'll need
 - Docker CE
+- Amazon SES account
+- SMTP Credentials of your Amazon SES account
+- Verified From email and To email on SES console
 
 ## Stack
 - Docker
-- Java
 - Spring Boot
-- MongoDB
+- Java Mail API
+- Spring Data JPA
+- MySQL
 - NGINX
 - Maven
 
